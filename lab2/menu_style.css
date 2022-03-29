@@ -1,0 +1,81 @@
+.myDiv{
+	padding: 50px 0;
+	background-color: lightblue;
+	height: 730px;
+}
+
+.menu-area {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	background: #262626;
+	width: 250px;
+}
+
+.menu-area li{
+	position: relative;
+}
+
+
+.menu-area li a{
+	text-align: center;
+	height: 36px; 
+	border-bottom: 1px;
+	border-style: solid;
+	border-color: #d0d0d0 #808080 #505050 #b0b0b0;
+	display: block;
+	text-decoration: none; 
+	padding-top: 15px;
+	color: white;
+}
+
+
+.menu-area li a strong{
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	letter-spacing: 3px;
+
+}
+
+.menu-area a:hover{
+	color: lightblue;
+}
+
+.menu-area li ul,
+.menu-area li ul li ul{
+	
+	background: #262626;
+	opacity: 0;
+	visibility: hidden;
+	transition: 300ms;
+	left: 280px;
+	top: 0;
+	list-style: none;
+	z-index: 999;
+	position: absolute;
+	height: auto;
+	min-width: 250px;
+	padding: 0;
+	margin: 0;
+}
+
+
+.menu-area li:hover > ul,
+.menu-area li ul li:hover > ul{
+	display: block;
+	opacity: 1;
+	visibility: visible;
+	left: 250px;
+} 
+
+
+.menu-area li ul li a{
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	letter-spacing: 3px;
+	padding: 10px;
+	text-align: center;
+}
+
