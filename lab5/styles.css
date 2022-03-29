@@ -1,0 +1,13 @@
+body {
+    display: block;
+    margin: 8px;
+}
+
+#item {
+    height: 100px;
+    width: 100px;
+    border: black solid 1px;
+    position: absolute; 
+   
+}
+
