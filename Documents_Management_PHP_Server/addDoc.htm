@@ -1,0 +1,28 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Add New Document</title>
+    <link rel="stylesheet" type="text/css" href="addDoc.css">
+</head>
+
+<body>
+<div class="container">
+    <h1>Create Document</h1>
+    <p><b>Please fill this form and submit to add the document to the database.</b></p>
+    
+    <!-- submits data to be processed to a specified source which is addDoc with post, not visible-->
+    <form action="addDoc.php" method="post">
+        <input type="text" name="title" placeholder="Title:"> <br>
+        <input type="text" name="author" placeholder="Author:"> <br>
+        <input type="number" name="nr_of_pages" placeholder="Number of pages:"> <br>
+        <input type="text" name="format" placeholder="Format:"> <br>
+        <div class="button_container">
+            <button type="submit">Add Document</button>
+            <button type="reset" onclick="window.location.href='showDocs.htm'">Cancel</button>
+        </div>
+    </form>
+</div>
+</body>
+
+</html>

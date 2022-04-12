@@ -1,0 +1,69 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(122, 164, 255);
+    flex-direction: column;
+}
+
+
+.details {
+
+    width: 80%;
+    align-self: center;
+    display: grid;
+    padding: 15px;
+}
+
+.details h1 {
+    text-align: center;
+}
+
+.details input {
+    height: 50%;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 50px;
+    display: inline-block;
+    background-color: #c4cfe4;
+    color: black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#info {
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 0px;
+}
+
+button {
+    border: 2px solid rgb(207, 169, 44);
+    border-radius: 7px;
+    background: rgb(189, 145, 63);
+    padding: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 0px;
+}
+
+table {
+    margin-top: 0px;
+    align-self: center;
+    width: 80%;
+}
+
+th {
+    background: rgb(189, 145, 63);
+    color: black;
+}
+
+table, th, td {
+    border-bottom: 1px solid rgb(16, 23, 128);
+    border-collapse: collapse;
+    text-align: center;
+    padding: 15px;
+}
